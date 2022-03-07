@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T13:00:33.439Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="TBWGiUl2CVjjjpq4mQwp" version="16.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-07T12:40:50.508Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="XK0PZmA-tHlAXkSb6lrA" version="16.6.5" type="github" pages="7">
   <diagram id="AwM2rcd0iUvYSeFLtnIT" name="图1-1 NVDIMM模式">
     <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -773,7 +773,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="56WFSB2bZWUpQDXzaeIO" name="Page-6">
+  <diagram id="56WFSB2bZWUpQDXzaeIO" name="有无键值移动区别">
     <mxGraphModel dx="2253" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JfXk8eB5F7QNXZ781ebR-0" />
@@ -964,7 +964,7 @@
         <mxCell id="CrogwHmFgdlTQzTkDpo1-50" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="JfXk8eB5F7QNXZ781ebR-1">
           <mxGeometry x="514" y="340" width="20" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CrogwHmFgdlTQzTkDpo1-53" value="条目移动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="JfXk8eB5F7QNXZ781ebR-1">
+        <mxCell id="CrogwHmFgdlTQzTkDpo1-53" value="键值移动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="JfXk8eB5F7QNXZ781ebR-1">
           <mxGeometry x="155" y="270" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CrogwHmFgdlTQzTkDpo1-54" value="无键值移动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="JfXk8eB5F7QNXZ781ebR-1">
@@ -975,6 +975,54 @@
         </mxCell>
         <mxCell id="CrogwHmFgdlTQzTkDpo1-56" value="&lt;font style=&quot;font-size: 16px&quot;&gt;1 + 1 + 2 × 12 = 26&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="JfXk8eB5F7QNXZ781ebR-1">
           <mxGeometry x="504" y="410" width="140" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7cvJ3bqL93NjGex7MC0s" name="驱逐标志">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="dt3WkEAsAHVtWvxbbJZX-0" />
+        <mxCell id="dt3WkEAsAHVtWvxbbJZX-1" parent="dt3WkEAsAHVtWvxbbJZX-0" />
+        <mxCell id="dt3WkEAsAHVtWvxbbJZX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Times New Roman;fontSize=16;strokeWidth=2;" edge="1" parent="dt3WkEAsAHVtWvxbbJZX-1" source="dt3WkEAsAHVtWvxbbJZX-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dt3WkEAsAHVtWvxbbJZX-2" value="查询键x" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fillColor=#FFFFFF;" vertex="1" parent="dt3WkEAsAHVtWvxbbJZX-1">
+          <mxGeometry x="40" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dt3WkEAsAHVtWvxbbJZX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=16;strokeWidth=2;" edge="1" parent="dt3WkEAsAHVtWvxbbJZX-1" source="dt3WkEAsAHVtWvxbbJZX-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dt3WkEAsAHVtWvxbbJZX-4" value="查询主桶" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="dt3WkEAsAHVtWvxbbJZX-1">
+          <mxGeometry x="200" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dt3WkEAsAHVtWvxbbJZX-5" value="返回结果" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fillColor=#FFFFFF;" vertex="1" parent="dt3WkEAsAHVtWvxbbJZX-1">
+          <mxGeometry x="620" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dt3WkEAsAHVtWvxbbJZX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=16;strokeWidth=2;" edge="1" parent="dt3WkEAsAHVtWvxbbJZX-1" source="dt3WkEAsAHVtWvxbbJZX-7" target="dt3WkEAsAHVtWvxbbJZX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dt3WkEAsAHVtWvxbbJZX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=16;strokeWidth=2;" edge="1" parent="dt3WkEAsAHVtWvxbbJZX-1" source="dt3WkEAsAHVtWvxbbJZX-7" target="dt3WkEAsAHVtWvxbbJZX-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dt3WkEAsAHVtWvxbbJZX-7" value="驱逐标志是否为1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fillColor=#FFFFFF;" vertex="1" parent="dt3WkEAsAHVtWvxbbJZX-1">
+          <mxGeometry x="390" y="255" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dt3WkEAsAHVtWvxbbJZX-12" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="dt3WkEAsAHVtWvxbbJZX-1">
+          <mxGeometry x="545" y="290" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dt3WkEAsAHVtWvxbbJZX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=16;strokeWidth=2;" edge="1" parent="dt3WkEAsAHVtWvxbbJZX-1" source="dt3WkEAsAHVtWvxbbJZX-14" target="dt3WkEAsAHVtWvxbbJZX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dt3WkEAsAHVtWvxbbJZX-14" value="查询负桶" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="dt3WkEAsAHVtWvxbbJZX-1">
+          <mxGeometry x="510" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dt3WkEAsAHVtWvxbbJZX-17" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="dt3WkEAsAHVtWvxbbJZX-1">
+          <mxGeometry x="430" y="220" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
