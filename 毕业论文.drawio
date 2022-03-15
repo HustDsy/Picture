@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T06:37:36.262Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="yRsj3pIFA9y3XH9JOcRB" version="17.0.0" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-03-15T07:07:06.239Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Hf9mYZihNNbWbX631yz6" version="17.0.0" type="github" pages="13">
   <diagram id="AwM2rcd0iUvYSeFLtnIT" name="图1-1 NVDIMM模式">
     <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1637,6 +1637,14 @@
             <mxPoint x="640" y="424" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WpRNeDqlhs67zoThTMx2" name="Page-13">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="T2QSLz56Bse9xKWjXC2D-0" />
+        <mxCell id="T2QSLz56Bse9xKWjXC2D-1" parent="T2QSLz56Bse9xKWjXC2D-0" />
       </root>
     </mxGraphModel>
   </diagram>
