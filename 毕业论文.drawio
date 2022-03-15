@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T14:00:33.866Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="1idlFc6lfmpR9_g27SG2" version="17.0.0" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-03-15T14:27:14.512Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="iYHiwIOV81jiZsvsqmRY" version="17.0.0" type="github" pages="15">
   <diagram id="AwM2rcd0iUvYSeFLtnIT" name="图1-1 NVDIMM模式">
     <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2064,6 +2064,9 @@
         </mxCell>
         <mxCell id="ciMT4XvK-axjX77Tg6xj-64" value="更新成功" style="rounded=0;whiteSpace=wrap;html=1;comic=0;fontFamily=Times New Roman;fontSize=16;fontColor=default;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="y_utMAmxPsI3blMtJ8TN-1">
           <mxGeometry x="620" y="590" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ciMT4XvK-axjX77Tg6xj-68" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;fontColor=default;" vertex="1" parent="y_utMAmxPsI3blMtJ8TN-1">
+          <mxGeometry x="288.13" y="330" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
