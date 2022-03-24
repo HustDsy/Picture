@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T10:55:14.413Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="OGsaKgzQxehAUJh_eKwr" version="17.1.2" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-03-24T11:03:26.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="Ruu5L1MoVX2-pcTrz2UR" version="17.1.2" type="github" pages="15">
   <diagram id="AwM2rcd0iUvYSeFLtnIT" name="图1-1 NVDIMM模式">
     <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,7 +75,7 @@
         <mxCell id="8zv_e0vl4Zn3km_8Ozzy-11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fillColor=#b1ddf0;strokeColor=#000000;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="473.5" y="175" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="8zv_e0vl4Zn3km_8Ozzy-12" value="DCPMM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#000000;fillColor=#ffff88;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="8zv_e0vl4Zn3km_8Ozzy-12" value="Optane DIMM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#000000;fillColor=#ffff88;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="532" y="435" width="98" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8zv_e0vl4Zn3km_8Ozzy-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=16;endArrow=none;endFill=0;" edge="1" parent="1" source="8zv_e0vl4Zn3km_8Ozzy-12" target="8zv_e0vl4Zn3km_8Ozzy-12">
@@ -93,7 +93,7 @@
         <mxCell id="8zv_e0vl4Zn3km_8Ozzy-46" value="DRAM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#000000;fillColor=#eeeeee;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="319.5" y="405" width="81" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8zv_e0vl4Zn3km_8Ozzy-47" value="DCPMM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#000000;fillColor=#ffff88;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="8zv_e0vl4Zn3km_8Ozzy-47" value="Optane DIMM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#000000;fillColor=#ffff88;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="300" y="460" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="8zv_e0vl4Zn3km_8Ozzy-57" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Times New Roman;fontSize=16;" edge="1" parent="1">
@@ -114,11 +114,11 @@
             <mxPoint x="360.32" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8zv_e0vl4Zn3km_8Ozzy-62" value="APP-Direct &lt;font face=&quot;简宋&quot;&gt;模式&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="500" y="510" width="119" height="30" as="geometry" />
+        <mxCell id="8zv_e0vl4Zn3km_8Ozzy-62" value="&lt;font face=&quot;Times New Roman&quot;&gt;APP-Direct &lt;/font&gt;模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=简宋;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="490" y="500" width="119" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8zv_e0vl4Zn3km_8Ozzy-63" value="&lt;font face=&quot;简宋&quot;&gt;内存模式&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="301" y="510" width="119" height="30" as="geometry" />
+          <mxGeometry x="301" y="500" width="119" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
