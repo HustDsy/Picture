@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T11:07:56.950Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="DM5-62JcflmbR1UYqNMN" version="17.4.0" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2022-04-13T05:42:27.642Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="dnn24s5t9QF3GnNwlBUm" version="17.4.0" type="github" pages="22">
   <diagram id="AwM2rcd0iUvYSeFLtnIT" name="图1-1 NVDIMM模式">
     <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -785,6 +785,27 @@
               <mxPoint x="600" y="430" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pSZAZ8xpnw6aGx4X_qnl-1" value="1" style="ellipse;aspect=fixed;comic=0;fontFamily=Times New Roman;fontSize=13;fontColor=default;strokeColor=default;strokeWidth=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="510" y="564" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="pSZAZ8xpnw6aGx4X_qnl-3" value="2" style="ellipse;aspect=fixed;comic=0;fontFamily=Times New Roman;fontSize=13;fontColor=default;strokeColor=default;strokeWidth=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="600" y="495" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="pSZAZ8xpnw6aGx4X_qnl-4" value="3" style="ellipse;aspect=fixed;comic=0;fontFamily=Times New Roman;fontSize=13;fontColor=default;strokeColor=default;strokeWidth=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="370" y="564" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="pSZAZ8xpnw6aGx4X_qnl-5" value="1" style="ellipse;aspect=fixed;comic=0;fontFamily=Times New Roman;fontSize=13;fontColor=default;strokeColor=default;strokeWidth=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="490" y="790" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="pSZAZ8xpnw6aGx4X_qnl-6" value="2" style="ellipse;aspect=fixed;comic=0;fontFamily=Times New Roman;fontSize=13;fontColor=default;strokeColor=default;strokeWidth=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="630" y="790" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="pSZAZ8xpnw6aGx4X_qnl-7" value="3" style="ellipse;aspect=fixed;comic=0;fontFamily=Times New Roman;fontSize=13;fontColor=default;strokeColor=default;strokeWidth=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="399" y="790" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="pSZAZ8xpnw6aGx4X_qnl-8" value="2" style="ellipse;aspect=fixed;comic=0;fontFamily=Times New Roman;fontSize=13;fontColor=default;strokeColor=default;strokeWidth=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="290" y="800" width="15" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1618,7 +1639,7 @@
         <mxCell id="NYqWHsLH07mf5ZqvVSDp-3" value="次缓存行的刷新" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=简宋;" parent="7wxVpbIUlGCdrsymB__c-1" vertex="1">
           <mxGeometry x="467.5" y="310" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NYqWHsLH07mf5ZqvVSDp-4" value="2" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;" parent="7wxVpbIUlGCdrsymB__c-1" vertex="1">
+        <mxCell id="NYqWHsLH07mf5ZqvVSDp-4" value="1" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;" parent="7wxVpbIUlGCdrsymB__c-1" vertex="1">
           <mxGeometry x="458.5" y="310" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NYqWHsLH07mf5ZqvVSDp-5" value="2" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;glass=0;labelBackgroundColor=default;labelBorderColor=none;fontFamily=Times New Roman;fontSize=16;" parent="7wxVpbIUlGCdrsymB__c-1" vertex="1">
