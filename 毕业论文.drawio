@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T03:19:52.534Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="Qk0D6PelWqXfFGGygOXN" version="17.4.5" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2022-04-19T03:30:42.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="D-M-rs8raK3_0yokQJtt" version="17.4.5" type="github" pages="22">
   <diagram id="AwM2rcd0iUvYSeFLtnIT" name="图1-1 NVDIMM模式">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1276,10 +1276,10 @@
         <mxCell id="cie4GdFpRfwoZ5s59rZY-1" value="1" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;" parent="JfXk8eB5F7QNXZ781ebR-1" vertex="1">
           <mxGeometry x="68" y="379" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2ASEKhMJbokR75ztHh06-0" value="键值移动策略" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=简宋;" vertex="1" parent="JfXk8eB5F7QNXZ781ebR-1">
+        <mxCell id="2ASEKhMJbokR75ztHh06-0" value="键值移动策略" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=简宋;" parent="JfXk8eB5F7QNXZ781ebR-1" vertex="1">
           <mxGeometry x="70" y="470" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2ASEKhMJbokR75ztHh06-1" value="传统策略" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=简宋;" vertex="1" parent="JfXk8eB5F7QNXZ781ebR-1">
+        <mxCell id="2ASEKhMJbokR75ztHh06-1" value="传统策略" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=简宋;" parent="JfXk8eB5F7QNXZ781ebR-1" vertex="1">
           <mxGeometry x="460" y="470" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
@@ -1639,14 +1639,14 @@
         <mxCell id="NYqWHsLH07mf5ZqvVSDp-9" value="9" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;glass=0;labelBackgroundColor=default;labelBorderColor=none;fontFamily=Times New Roman;fontSize=16;" parent="7wxVpbIUlGCdrsymB__c-1" vertex="1">
           <mxGeometry x="89" y="419" width="39" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="a9LylBbn8slKNfNeietS-0" value="次缓存行刷新" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=简宋;" vertex="1" parent="7wxVpbIUlGCdrsymB__c-1">
+        <mxCell id="a9LylBbn8slKNfNeietS-0" value="次缓存行刷新" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=简宋;" parent="7wxVpbIUlGCdrsymB__c-1" vertex="1">
           <mxGeometry x="464.5" y="311" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="rYwlDykhftwWWbGHHeNk" name="指纹技术">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="FyPHK6OYvFyEoCFeWlbP-0" />
         <mxCell id="FyPHK6OYvFyEoCFeWlbP-1" parent="FyPHK6OYvFyEoCFeWlbP-0" />
@@ -1900,14 +1900,14 @@
         <mxCell id="1wo866-xpvknvYDGK25o-1" value="有指纹" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;glass=0;dashed=1;labelBackgroundColor=none;labelBorderColor=none;fontFamily=简宋;fontSize=12;fontColor=none;" parent="FyPHK6OYvFyEoCFeWlbP-1" vertex="1">
           <mxGeometry x="449.25" y="346" width="78" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6xB16zuPVih-GLwuhDKE-0" value="比较" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="FyPHK6OYvFyEoCFeWlbP-1">
+        <mxCell id="6xB16zuPVih-GLwuhDKE-0" value="比较" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=简宋;" vertex="1" parent="FyPHK6OYvFyEoCFeWlbP-1">
           <mxGeometry x="149.75" y="283" width="44" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="7cvJ3bqL93NjGex7MC0s" name="驱逐标志">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dt3WkEAsAHVtWvxbbJZX-0" />
         <mxCell id="dt3WkEAsAHVtWvxbbJZX-1" parent="dt3WkEAsAHVtWvxbbJZX-0" />
@@ -2044,7 +2044,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2co0lmbWqxi9KtCQguDt" name="位置信息数组">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="zaQbdQSHTw2Pj1ADnJHF-0" />
         <mxCell id="zaQbdQSHTw2Pj1ADnJHF-1" parent="zaQbdQSHTw2Pj1ADnJHF-0" />
@@ -2157,10 +2157,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jtxtxehK4xVdlmTm71jL" name="死锁">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1056" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="9tXHt_yI0fdEcMX_rdI4-0" />
         <mxCell id="9tXHt_yI0fdEcMX_rdI4-1" parent="9tXHt_yI0fdEcMX_rdI4-0" />
+        <mxCell id="M3_Q8VdZw5klA0R13tSh-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;dashed=1;" vertex="1" parent="9tXHt_yI0fdEcMX_rdI4-1">
+          <mxGeometry x="590" y="790" width="66" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="HE1j2MQcqmeqerzHRUe1-0" value="" style="rounded=0;fontSize=16;fillColor=#B3B3B3;" parent="9tXHt_yI0fdEcMX_rdI4-1" vertex="1">
           <mxGeometry x="300" y="770" width="80" height="20" as="geometry" />
         </mxCell>
@@ -2227,32 +2230,32 @@
         <mxCell id="ETH70o4NiYBuyqvAOKYr-4" value="1" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="9tXHt_yI0fdEcMX_rdI4-1" vertex="1">
           <mxGeometry x="315" y="857" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Zcx0FMY-RFn2PmlDZpSD-5" value="������" style="text;fontSize=20;fontFamily=Times New Roman;" parent="9tXHt_yI0fdEcMX_rdI4-1" vertex="1">
-          <mxGeometry x="431" y="691" width="30" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="Zcx0FMY-RFn2PmlDZpSD-8" value="" style="endArrow=classic;rounded=0;dashed=1;fontFamily=简宋;fontSize=14;" parent="9tXHt_yI0fdEcMX_rdI4-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="590" y="660" as="sourcePoint" />
-            <mxPoint x="640" y="660" as="targetPoint" />
+            <mxPoint x="600" y="811" as="sourcePoint" />
+            <mxPoint x="650" y="811" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Zcx0FMY-RFn2PmlDZpSD-9" value="" style="endArrow=classic;rounded=0;fontFamily=简宋;fontSize=14;" parent="9tXHt_yI0fdEcMX_rdI4-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="590" y="690" as="sourcePoint" />
-            <mxPoint x="640" y="690" as="targetPoint" />
+            <mxPoint x="600" y="841" as="sourcePoint" />
+            <mxPoint x="650" y="841" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Zcx0FMY-RFn2PmlDZpSD-10" value="请求" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=简宋;fontSize=14;" parent="9tXHt_yI0fdEcMX_rdI4-1" vertex="1">
-          <mxGeometry x="580" y="634" width="60" height="30" as="geometry" />
+          <mxGeometry x="590" y="785" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zcx0FMY-RFn2PmlDZpSD-11" value="占有" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=简宋;fontSize=14;" parent="9tXHt_yI0fdEcMX_rdI4-1" vertex="1">
-          <mxGeometry x="580" y="664" width="60" height="30" as="geometry" />
+          <mxGeometry x="590" y="815" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3_Q8VdZw5klA0R13tSh-0" value="������" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="9tXHt_yI0fdEcMX_rdI4-1">
+          <mxGeometry x="425" y="700" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="1VNnrBq6Zp5W7-uhibx-" name="数据移动">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="jpQuqAXP6GglgsPrSrhA-0" />
         <mxCell id="jpQuqAXP6GglgsPrSrhA-1" parent="jpQuqAXP6GglgsPrSrhA-0" />
@@ -2562,7 +2565,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8YfRi6ZstpLCHwyjUJZo" name="指纹信息">
-    <mxGraphModel dx="2253" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="AlIZv0THLKZJGvPtJ67W-0" />
         <mxCell id="AlIZv0THLKZJGvPtJ67W-1" parent="AlIZv0THLKZJGvPtJ67W-0" />
@@ -2921,7 +2924,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hKkYxmUs68uR5YcsfE2k" name="删除操作流程">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ywDNPgoOmu8Tz5IVo1D3-0" />
         <mxCell id="ywDNPgoOmu8Tz5IVo1D3-1" parent="ywDNPgoOmu8Tz5IVo1D3-0" />
@@ -3041,7 +3044,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mggPARYzTcaMt1cGAZGc" name="更新操作流程">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="y_utMAmxPsI3blMtJ8TN-0" />
         <mxCell id="y_utMAmxPsI3blMtJ8TN-1" parent="y_utMAmxPsI3blMtJ8TN-0" />
@@ -3158,7 +3161,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zDFCgB9ukCYl-ad-0O-P" name="元数据">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="QPXzlmlTjNZKS4kkAouc-0" />
         <mxCell id="QPXzlmlTjNZKS4kkAouc-1" parent="QPXzlmlTjNZKS4kkAouc-0" />
@@ -3282,7 +3285,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oEgkHEMBH_hN-6Fauyo0" name="元数据分开">
-    <mxGraphModel dx="599" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="599" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3434,7 +3437,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7JrZwkTb_pS5Ef2Zg3zE" name="布谷哈希的踢出操作">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3538,7 +3541,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kyLo-7tZxKEuA15KH3iZ" name="整体结构">
-    <mxGraphModel dx="599" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="599" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3690,7 +3693,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qCWaatGgCMdMbg9F6mL7" name="整体结构2">
-    <mxGraphModel dx="599" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="599" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
