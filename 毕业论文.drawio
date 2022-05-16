@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-12T11:46:58.221Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="7liDobl4Q0z4RNwtaWJW" version="17.4.6" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2022-05-16T10:01:51.612Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="JFenakDk2Ldk_9yBsIlJ" version="17.4.6" type="github" pages="25">
   <diagram id="AwM2rcd0iUvYSeFLtnIT" name="图1-1 NVDIMM模式">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4162,6 +4162,227 @@
         </mxCell>
         <mxCell id="62FGj-0pXllPbe3Dco3U-73" value="KV2" style="rounded=0;strokeWidth=1;fontFamily=Times New Roman;fillColor=#B3B3B3;fontColor=#333333;strokeColor=#000000;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="440" y="530" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MlUysrkt-yptMyJmxzmL" name="驱逐历史">
+    <mxGraphModel dx="2253" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-1" value="1" style="rounded=0;fillColor=#B3B3B3;fontColor=#333333;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="274" y="852" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-2" value="3" style="rounded=0;fillColor=#B3B3B3;fontColor=#333333;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="274" y="872" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-3" value="9" style="rounded=0;fillColor=#B3B3B3;fontColor=#333333;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="274" y="892" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-4" value="8" style="rounded=0;fillColor=#B3B3B3;fontColor=#333333;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="274" y="912" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-5" value="7" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="414" y="852" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-6" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="414" y="872" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-7" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="414" y="892" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-8" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="414" y="912" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-9" value="" style="endArrow=classic;rounded=0;fontFamily=宋体;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="EEMLY-BEonXdvwBXJiWE-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="354" y="772" as="sourcePoint" />
+            <mxPoint x="274" y="882" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-10" value="" style="endArrow=classic;rounded=0;fontFamily=宋体;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="EEMLY-BEonXdvwBXJiWE-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="772" as="sourcePoint" />
+            <mxPoint x="450" y="832" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-12" value="插入" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="348" y="742" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-13" value="7" style="text;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="394" y="742" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-18" value="1" style="rounded=0;fillColor=#B3B3B3;fontColor=#333333;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="852" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-19" value="3" style="rounded=0;fillColor=#B3B3B3;fontColor=#333333;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="872" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-20" value="9" style="rounded=0;fillColor=#B3B3B3;fontColor=#333333;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="892" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-21" value="8" style="rounded=0;fillColor=#B3B3B3;fontColor=#333333;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="912" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-22" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="120" y="852" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-23" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="120" y="872" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-24" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="120" y="892" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-25" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="120" y="912" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-26" value="" style="endArrow=classic;rounded=0;fontFamily=宋体;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="EEMLY-BEonXdvwBXJiWE-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="772" as="sourcePoint" />
+            <mxPoint x="-20" y="882" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-27" value="" style="endArrow=classic;rounded=0;fontFamily=宋体;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="EEMLY-BEonXdvwBXJiWE-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="116" y="772" as="sourcePoint" />
+            <mxPoint x="156" y="832" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-29" value="插入" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="54" y="742" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-30" value="8" style="text;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="100" y="742" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-32" value="1" style="rounded=0;fillColor=#B3B3B3;fontColor=#333333;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="600" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-33" value="3" style="rounded=0;fillColor=#B3B3B3;fontColor=#333333;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="620" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-34" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="640" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-35" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="660" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-36" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="120" y="600" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-37" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="120" y="620" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-38" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="120" y="640" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-39" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="120" y="660" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-40" value="" style="endArrow=classic;rounded=0;fontFamily=宋体;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="EEMLY-BEonXdvwBXJiWE-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="520" as="sourcePoint" />
+            <mxPoint x="-20" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-41" value="" style="endArrow=classic;rounded=0;fontFamily=宋体;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="EEMLY-BEonXdvwBXJiWE-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="116" y="520" as="sourcePoint" />
+            <mxPoint x="156" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-42" value="主桶" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="-9" y="690" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-43" value="插入" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="54" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-44" value="3" style="text;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="100" y="490" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-45" value="副桶" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="135" y="690" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-46" value="1" style="rounded=0;fillColor=#B3B3B3;fontColor=#333333;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="274" y="600" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-47" value="3" style="rounded=0;fillColor=#B3B3B3;fontColor=#333333;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="274" y="620" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-48" value="9" style="rounded=0;fillColor=#B3B3B3;fontColor=#333333;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="274" y="640" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-49" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="274" y="660" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-50" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="414" y="600" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-51" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="414" y="620" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-52" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="414" y="640" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-53" value="" style="rounded=0;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="414" y="660" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-54" value="" style="endArrow=classic;rounded=0;fontFamily=宋体;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="EEMLY-BEonXdvwBXJiWE-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="354" y="520" as="sourcePoint" />
+            <mxPoint x="274" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-55" value="" style="endArrow=classic;rounded=0;fontFamily=宋体;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="EEMLY-BEonXdvwBXJiWE-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-57" value="插入" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="348" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-58" value="9" style="text;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="394" y="490" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-63" value="0" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;labelBackgroundColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="-42" y="600" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-67" value="" style="endArrow=none;fontFamily=Times New Roman;fontSize=13;curved=1;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-43" y="620" as="sourcePoint" />
+            <mxPoint x="-23" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-72" value="0" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;labelBackgroundColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="251" y="600" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-73" value="" style="endArrow=none;fontFamily=Times New Roman;fontSize=13;curved=1;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="620" as="sourcePoint" />
+            <mxPoint x="270" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-76" value="0" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;labelBackgroundColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="-44" y="851" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-77" value="" style="endArrow=none;fontFamily=Times New Roman;fontSize=13;curved=1;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-43" y="871" as="sourcePoint" />
+            <mxPoint x="-23" y="871" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-78" value="1" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;fontColor=#FF0000;labelBackgroundColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="250" y="852" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-79" value="" style="endArrow=none;fontFamily=Times New Roman;fontSize=13;curved=1;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="251" y="872" as="sourcePoint" />
+            <mxPoint x="271" y="872" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EEMLY-BEonXdvwBXJiWE-82" value="驱逐标志" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="-116" y="601" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
